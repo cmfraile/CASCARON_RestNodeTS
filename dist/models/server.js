@@ -12,7 +12,7 @@ var Server = /** @class */ (function () {
     Server.prototype.listen = function () {
         var _this = this;
         this.app.listen(this.port, function () {
-            console.log("Servidor corriendo en puerto " + _this.port);
+            console.log("Servidor corriendo en puerto ".concat(_this.port));
             console.log("tsc --watch && nodemon dist/app.js &&");
         });
     };
